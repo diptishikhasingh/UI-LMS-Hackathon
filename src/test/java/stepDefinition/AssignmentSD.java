@@ -368,7 +368,7 @@ public class AssignmentSD{
 
 	@Then("Admin should see new assignment details is added in the data table")
 	public void admin_should_see_new_assignment_details_is_added_in_the_data_table() {
-	    boolean t=assignment.addAssignmentDisplay(toString());
+	    boolean t=assignment.addAssignmentDisplay(null);
 	    if(t==true)
 			System.out.println("new assignment is Visible");
 			else
